@@ -69,6 +69,7 @@ section .create{
 .story h3{
     color: #084482;
     font-size:40px;
+    font-weight: 600;
 }
 .flex{
     display: flex;
@@ -81,29 +82,53 @@ section .set{
     max-width: 100%;
     max-height:100%;
 }*/
-.pot, .land, .lands{
-    width:150px;
-    height:auto;
-    border: 1px solid #084482
+section button{
+    background-color: #333333;
+    border:none;
+    border-radius: 4px;
 }
 .box{
     display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows:1fr 1fr;
-    gap:20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:minmax(0, 1fr) minmax(0, 1fr);
+    row-gap: 70px;
+    
 }
-.main{
-    min-width: 100%;
+.box h5{
+    color:#084482;
+    font-size:25px;
+    font-weight: 600;
+}
+.box p{
+    color: #333333;
+    font-size: 18px;
 }
 
+.wait{
+    min-height: 0;
+    min-width:0;
+}
 
+.show{
+    font-size:12px;
+}
+
+.start{
+    color: #275B92;
+    font-size:30px;
+    font-weight: 600;
+    margin-top:100px !important;
+}
+hr{
+    margin-top:50px;
+}
 
 
 footer{
-    background-color: #FAFAFA;
+    background-color: #ffffff;
 }
 .footer{
-    width: 60%;
+    width: 80%;
     margin: auto;
     font-size:18px;
 }
@@ -114,14 +139,15 @@ footer{
 }
 .flex-container h5{
     font-size:1.5rem;
-    color:#00AEFF;
+    color:#275B92;
 }
 .flex-container a{
-  color:#00AEFF;
+  color:#333333;
   line-height: 2.5rem;
+  font-size:16px;
 }
 .flex-container p{
-    color:#737373;
+    color:#333333;
 }
 footer i{
     background-color: #ffffff;
@@ -131,7 +157,60 @@ footer i{
 footer .end{
     color:#8898AA;
 }
-@media(max-width:600px){
+b{
+    color:#00AEFF;
+}
+
+@media(max-width:926px){
+
+    nav{
+        width: 90%;
+        margin: auto;
+        }
+    
+    nav .adjust img, footer img{
+            width: 150px;
+    } 
+    
+    .my-auto h4{
+        margin-top:20px;
+    }
+    .my-auto img{
+        margin-top:20px;
+        max-width:100% ;
+    }
+
+    section h2{
+        font-size:40px;
+    }
+    .story{
+        display: block;
+    }
+    .story h3{
+        font-size:30px;
+    }
+    .story button{
+        margin-top:20px;
+        margin-bottom: 20px;
+    }
+    .story img{
+        max-width: 100%;
+    }
+    .box{
+        display: block;
+    }
+    .box img{
+        max-width: 100%;
+    }
+    .wait{
+        margin-bottom: 80px;
+    }
+    .start{
+        font-size:25px;
+    }
+
+
+
     footer .flex-container{
         display: block;
         width:100%;
