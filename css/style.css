@@ -1,0 +1,144 @@
+body{
+    font-family: 'Open Sans';
+}
+nav{
+    width: 85%;
+    margin: auto;
+}
+nav .navbar-nav li a{
+    color: #474747 !important;
+    opacity: 0.95;
+    line-height: 22px;
+}
+nav .navbar-nav a:hover{
+    background-color: #00AEFF;
+    border-radius:4px;
+    color:#ffffff !important;
+}
+
+.section-one{
+    background-color: #D1F0F6;
+}
+.section-one .btn{
+    background-color: #00AEFF;
+    border-radius: 4px;
+    line-height:0.2rem;
+    padding:1rem;
+}
+.section-one .btn:hover{
+    background-color:#fff ;
+    color: #00AEFF !important;
+    border-radius: 4px;
+    line-height:0.2rem;
+    font-size: 1.2rem;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+}
+.container h4{
+    font-size:40px;
+    color:#084482;
+}
+.container p{
+    color:#474747;
+    font-size:18px;
+}
+.container a{
+    border-radius:8px;
+    color:#fff;
+    background-color: #00AEFF;
+    line-height: 25px;
+}
+.row .col p{
+    color:#333333;
+}
+section h2{
+    color:#275B92;
+    font-weight:600px;
+    font-size:48px;
+
+}
+section .create{
+    color:#333333;
+}
+.story{
+    display: flex;
+}
+.story h3{
+    color: #084482;
+    font-size:40px;
+}
+.flex{
+    display: flex;
+    
+}
+section .set{
+    flex: 1 1 0px;
+}
+/*.flex img{
+    max-width: 100%;
+    max-height:100%;
+}*/
+.pot, .land, .lands{
+    width:150px;
+    height:auto;
+    border: 1px solid #084482
+}
+.box{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows:1fr 1fr;
+    gap:20px;
+}
+.main{
+    min-width: 100%;
+}
+
+
+
+
+footer{
+    background-color: #FAFAFA;
+}
+.footer{
+    width: 60%;
+    margin: auto;
+    font-size:18px;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.flex-container h5{
+    font-size:1.5rem;
+    color:#00AEFF;
+}
+.flex-container a{
+  color:#00AEFF;
+  line-height: 2.5rem;
+}
+.flex-container p{
+    color:#737373;
+}
+footer i{
+    background-color: #ffffff;
+    box-shadow: 0px 4px 4px rgba(50, 50, 93, 0.11), 0px 1px 3px rgba(0, 0, 0, 0.08);
+    color:#00AEFF;
+}
+footer .end{
+    color:#8898AA;
+}
+@media(max-width:600px){
+    footer .flex-container{
+        display: block;
+        width:100%;
+    }
+
+    .f-two, .f-three, .f-four{
+        margin-top: 30px;
+    }
+
+}
